@@ -1,6 +1,6 @@
-## Set up typesense with digital ocean ubuntu server
+# Set up typesense with digital ocean ubuntu server
 
-# Step 1: Download & Install Typesense
+## Step 1: Download & Install Typesense
 
 Once you have logged into your ubuntu server on digital ocean, run the following commands to download and install typesense
 
