@@ -6,12 +6,17 @@ Once you have logged into your ubuntu server on digital ocean, run the following
 
 Download typsense
 ```shell
-curl -O https://dl.typesense.org/releases/0.24.0/typesense-server-0.24.0-linux-amd64.tar.gz
+curl -O https://dl.typesense.org/releases/0.24.0/typesense-server-0.24.0-amd64.deb
 ```
 
-Install and run
+Install typesense
 ```shell
-tar -xzf typesense-server-0.24.0-linux-amd64.tar.gz
+sudo apt install ./typesense-server-0.24.0-amd64.deb
+```
+
+Run typesense
+```shell
+sudo systemctl status typesense-server.service
 ```
 
 Now we should have typesense installed.
