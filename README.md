@@ -85,3 +85,5 @@ ssl-certificate-key = /etc/letsencrypt/live/<yourdomain.com>/privkey.pem
 ```
 
 Congratulations! You have now set up typesense with a digital ocean ubuntu server and added an SSL certificate to it.
+
+You can test to see if it is working by going to this codesandbox and entering the server details - https://codesandbox.io/s/typesense-server-test-r7lt9s?file=/src/Typesense/createCollection.js
